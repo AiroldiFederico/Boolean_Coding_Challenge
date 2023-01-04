@@ -1,0 +1,117 @@
+
+body{
+
+  /* background */
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+  /* position */
+  margin: auto;
+  margin-top: 5%;
+  width: 65%;
+  box-sizing: border-box;
+
+  color: #ffffff;
+
+}
+
+/* box body */
+.box{
+  background-color: rgba(0, 0, 0, 0.5);;
+  border-radius: 15px;
+  padding-top: 25px;
+  padding-right: 40px;
+  padding-bottom: 25px;
+  padding-left: 40px;
+}
+
+
+
+/* logo sizing */
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/* header content allign */
+header{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+  font-size: 30px;
+  font-family: 'Ubuntu';
+  color: #4df800;
+}
+
+
+
+/* green bar */
+nav{
+  background-color: #4df800;
+  width: 100%;
+  padding: 1%;
+}
+
+/* center button nav bar */
+.ButtonNav{
+  margin-left: auto%;
+  margin-right: auto%;
+  text-align: center;
+}
+
+
+
+/* allign row */
+div.row1 > * {
+  display: inline-block;
+  margin: auto;
+}
+
+
+
+/* main content */
+main{
+  margin-top: 1%;
+  font-family: 'Ubuntu';
+  font-size: 15px;
+}
+
+main > div {
+  margin-bottom: 20px;
+}
+
+.LoadingBar1{
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #f1c232;
+  border-radius: 5px;
+  width: 30%;
+}
+
+.LoadingBar2{
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #07ce00;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.LoadingBar3{
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #cc0000;
+  border-radius: 5px;
+  width: 5%;
+}
